@@ -1,0 +1,39 @@
+.vagas__conteiner{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding-left: 25em;
+    padding-right: 25em;
+    padding-bottom: 4em;
+    
+}
+.vaga__titulo{
+    font-size: 20px;
+    color: var(--cor-cinza-degr);
+    margin-bottom: 1em;
+}
+.vaga__conteiner{
+    border: 1px solid var(--cor-cinza-borda);
+    border-radius: 16px;
+    padding: 1em 1em;
+
+}
+.vaga__conteudo{
+    font-size: 18px;
+    color: var(--cor-cinza-degr);
+}
+.vaga__textos{
+    padding-left: 0.5em;
+    display: flex;
+    gap: 16px;
+}
+.vaga__texto{
+    font-size: 16px;
+    color: var(--cor-cinza-texto);
+}

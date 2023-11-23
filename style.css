@@ -1,0 +1,28 @@
+@import url("style/header.css");
+@import url("style/metricas.css");
+@import url("style/vagas.css");
+@import url("style/depoimentos.css");
+@import url("style/rodape.css");
+
+:root{
+    --fundo-branco: #ffffff;
+    --font-principal: 'Inter';
+    --cor-cinza-titulo: #3A404E;
+    --cor-cinza-texto: var(--gray-500, #667085);
+    --cor-vermelho: #8E2424;
+    --cor-cinza-degr: var(--gray-900, #101828);
+    --cor-cinza-borda: var(--gray-200, #EAECF0);
+    --cor-fundo-vermelho: rgba(195, 25, 25, 0.03);
+    --cor-texto-preto: #101828;
+    --cor-fundo-cinza: var(--gray-50, #F9FAFB);
+    --cor-cinza-400: var(--gray-400, #98A2B3);
+    
+}
+
+body{
+    background-color: var(--fundo-branco);
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 16px;
+
+}
